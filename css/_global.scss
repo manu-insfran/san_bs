@@ -20,18 +20,20 @@ img {
   width: 50%;
 }
 
-// main {
-//   position: relative;
-//   z-index: 2;
-//   margin-bottom: 140px;
-//   background: #ffffff;
-// }
+// propiedades para efecto parallax
 
-// footer {
-//   position: fixed;
-//   bottom: 0;
-//   width: 100%;
-// }
+main {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 140px;
+  background: #ffffff;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
 
 @media screen and (max-width: 992px) {
   .ancho {
