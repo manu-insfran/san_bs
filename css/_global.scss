@@ -1,0 +1,40 @@
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-80 img {
+  max-width: 70%;
+}
+
+.navbar-opacity {
+  opacity: 90%;
+}
+
+.box-footer {
+  background-color: #0a4275;
+}
+
+.ancho {
+  width: 50%;
+}
+
+// main {
+//   position: relative;
+//   z-index: 2;
+//   margin-bottom: 140px;
+//   background: #ffffff;
+// }
+
+// footer {
+//   position: fixed;
+//   bottom: 0;
+//   width: 100%;
+// }
+
+@media screen and (max-width: 992px) {
+  .ancho {
+    width: 80%;
+  }
+}
