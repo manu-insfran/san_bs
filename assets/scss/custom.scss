@@ -1,5 +1,12 @@
-@import "variables";
-@import "loader";
-@import "navbar";
-@import "global";
-@import "footer";
+//Partials Imports
+
+//Base
+@import "base/variables";
+@import "base/mixin";
+
+//Components
+@import "components/loader";
+@import "components/navbar";
+@import "components/main";
+@import "components/global";
+@import "components/footer";

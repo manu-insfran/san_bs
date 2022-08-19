@@ -1,0 +1,12 @@
+.navbar-opacity {
+  opacity: 90%;
+}
+.navbar {
+  a {
+    color: map-get($colors, primary);
+
+    &:hover {
+      color: map-get($colors, primary);
+    }
+  }
+}

@@ -1,0 +1,7 @@
+.parallax-main {
+  @include parallax(180px);
+}
+
+.parallax-main--inicio {
+  @include parallax(140px);
+}

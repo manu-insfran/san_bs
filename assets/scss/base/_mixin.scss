@@ -1,0 +1,7 @@
+@mixin parallax($margin-bottom) {
+  position: relative;
+  z-index: 2;
+  margin-top: 0;
+  margin-bottom: $margin-bottom;
+  background: #ffffff;
+}
