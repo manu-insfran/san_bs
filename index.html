@@ -68,15 +68,17 @@
     <div id="loader"></div>
     <div id="all-content" class="animatebottom">
       <!-- Header -->
-      <header>
+      <header class="sticky-top">
         <!-- Navbar -->
         <nav
-          class="navbar navbar-expand-md navbar-opacity navbar-light bg-light sticky-top border border-bo-light p-1"
+          class="navbar navbar-expand-md navbar-opacity navbar-light bg-light border p-1"
         >
           <div class="container">
             <a class="navbar-brand p-0 h-100" href="index.html">
               <img
                 src="assets/img/log-san_home-90x90.png"
+                width="90"
+                height="90"
                 alt="Logo de la Empresa SAN - Systems and Networks"
               />
             </a>
@@ -185,7 +187,7 @@
         <!-- Main Image -->
         <section>
           <img
-            src="assets/img/img-fondo-home_02.jpg"
+            src="assets/img/img-fondo-home_02.webp"
             alt="Banner de presentacion de la empresa SAN - Systems and Networks"
             class="d-block w-100"
           />
@@ -205,7 +207,7 @@
               class="mx-auto d-block"
             />
           </div>
-          <div class="col-md-7 text-center">
+          <div class="col-11 col-md-8 col-lg-7 text-center">
             <p>
               SAN es una empresa tecnológica paraguaya fundada en el año 2004,
               basando su crecimiento en la innovación permanente a través del
@@ -219,9 +221,13 @@
           </div>
           <div class="container">
             <div class="col-md-12 text-center">
-              <button type="button" class="btn btn-light border-btn">
-                LEER MÁS
-              </button>
+              <a
+                href="pages/la_empresa.html"
+                type="button"
+                class="btn btn-light border-btn"
+              >
+                LEER MÁS</a
+              >
             </div>
           </div>
         </section>
@@ -230,12 +236,10 @@
 
         <!-- Nuetras divisiones -->
         <section class="container pb-5">
-          <div class="row">
-            <div class="col-sm p-5 text-center">
-              <h3 class="">Nuestras Divisiones</h3>
-            </div>
-          </div>
           <div class="row justify-content-center">
+            <div class="col-12 p-3 text-center">
+              <p class="h3">Nuestras Divisiones</p>
+            </div>
             <div class="p-3 col-md-2">
               <img
                 src="assets/img/logo_online-160x61.jpg"
@@ -281,21 +285,21 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
-                src="assets/img/banner-mps_3.jpg"
+                src="assets/img/banner-mps_3.webp"
                 alt="Logo de MPS Servicio de administración de impresión "
                 class="d-block w-100"
               />
             </div>
             <div class="carousel-item">
               <img
-                src="assets/img/banner-dms_5.jpg"
+                src="assets/img/banner-dms_5.webp"
                 alt="Banner de sistema de digitalización Zcriptum"
                 class="d-block w-100"
               />
             </div>
             <div class="carousel-item">
               <img
-                src="assets/img/Ai-Mi-factura-banner.jpg"
+                src="assets/img/Ai-Mi-factura-banner.webp"
                 alt="Banner de ISA facturación electronica"
                 class="d-block w-100"
               />
@@ -308,57 +312,58 @@
 
       <!-- Footer -->
       <footer class="text-center text-white box-footer">
-        <div class="container-fluid">
-          <div class="container p-3">
-            <div class="row justify-content-center img-80">
-              <div class="p-3 col-md-2">
-                <img
-                  src="assets/img/Divisiones_-blanco-2_01-online.png"
-                  alt="Logo de la división Online"
-                  class="mx-auto d-block"
-                />
-              </div>
-              <div class="p-3 col-md-2">
-                <img
-                  src="assets/img/Divisiones_-blanco-2_02-join.png"
-                  alt="Logo de la división Join"
-                  class="mx-auto d-block"
-                />
-              </div>
-              <div class="p-3 col-md-2">
-                <img
-                  src="assets/img/Divisiones_-blanco-2_03-rainbow.png"
-                  alt="Logo de la división Rainbow"
-                  class="mx-auto d-block"
-                />
-              </div>
-              <div class="p-3 col-md-2">
-                <img
-                  src="assets/img/Divisiones_-blanco-2_04-mentors.png"
-                  alt="Logo de la división Mentors"
-                  class="mx-auto d-block"
-                />
-              </div>
-              <div class="p-3 col-md-2">
-                <img
-                  src="assets/img/Divisiones_-blanco-2_05-pctunning.png"
-                  alt="Logo de la división Pc Tunning"
-                  class="mx-auto d-block"
-                />
-              </div>
+        <div class="container p-3">
+          <div class="row justify-content-center img-80">
+            <div class="py-3 col-md-2">
+              <img
+                src="assets/img/Divisiones_-blanco-2_01-online.png"
+                alt="Logo de la división Online"
+                class="mx-auto d-block"
+              />
+            </div>
+            <div class="py-3 col-md-2">
+              <img
+                src="assets/img/Divisiones_-blanco-2_02-join.png"
+                alt="Logo de la división Join"
+                class="mx-auto d-block"
+              />
+            </div>
+            <div class="py-3 col-md-2">
+              <img
+                src="assets/img/Divisiones_-blanco-2_03-rainbow.png"
+                alt="Logo de la división Rainbow"
+                class="mx-auto"
+              />
+            </div>
+            <div class="py-3 col-md-2">
+              <img
+                src="assets/img/Divisiones_-blanco-2_04-mentors.png"
+                alt="Logo de la división Mentors"
+                class="mx-auto"
+              />
+            </div>
+            <div class="py-3 col-md-2">
+              <img
+                src="assets/img/Divisiones_-blanco-2_05-pctunning.png"
+                alt="Logo de la división Pc Tunning"
+                class="mx-auto"
+              />
             </div>
           </div>
         </div>
-        <div class="text-center p-3 box-footer">
-          Copyright ©2022 Systems and Network (SAN) S.R.L. | Todos los derechos
-          reservados.
+
+        <div class="text-center p-3 box-footer h6">
+          <small
+            >Copyright ©2022 Systems and Network (SAN) S.R.L. | Todos los
+            derechos reservados.</small
+          >
         </div>
       </footer>
     </div>
 
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
     <script>

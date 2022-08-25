@@ -22,7 +22,7 @@ img {
 }
 
 .img-80 img {
-  max-width: 70%;
+  max-width: 60%;
 }
 
 .ancho {
@@ -43,5 +43,15 @@ footer {
 
   footer {
     position: relative;
+  }
+
+  .img-80 img {
+    max-width: 70%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .img-80 img {
+    max-width: 35%;
   }
 }
