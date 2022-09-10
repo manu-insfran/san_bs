@@ -1,10 +1,10 @@
 {
   "name": "san_bs",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sitio Web SAN SRL",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "sass --watch assets/scss/custom.scss assets/css/custom.css"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/nipidamos/san_bs/issues"
   },
-  "homepage": "https://github.com/nipidamos/san_bs#readme"
+  "homepage": "https://github.com/nipidamos/san_bs#readme",
+  "dependencies": {
+    "sass": "^1.54.4"
+  }
 }

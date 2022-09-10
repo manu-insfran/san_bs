@@ -5,3 +5,13 @@
 .parallax-main--inicio {
   @include parallax(140px);
 }
+
+@media screen and (max-width: 992px) {
+  .parallax-main {
+    @include parallax(10px);
+  }
+
+  .parallax-main--inicio {
+    @include parallax(10px);
+  }
+}

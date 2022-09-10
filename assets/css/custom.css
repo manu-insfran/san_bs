@@ -91,6 +91,22 @@
   background: #ffffff;
 }
 
+@media screen and (max-width: 992px) {
+  .parallax-main {
+    position: relative;
+    z-index: 2;
+    margin-top: 0;
+    margin-bottom: 10px;
+    background: #ffffff;
+  }
+  .parallax-main--inicio {
+    position: relative;
+    z-index: 2;
+    margin-top: 0;
+    margin-bottom: 10px;
+    background: #ffffff;
+  }
+}
 body, ul,
 li,
 p,
